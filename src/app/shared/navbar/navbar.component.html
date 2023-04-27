@@ -1,0 +1,17 @@
+<header class="navbar">
+    <a routerLink="/" class="logo">My Portfolio</a>
+    <div class="nav-container">
+      <nav class="nav-links" [ngClass]="{ 'show-menu': isMenuOpen }">
+        <a routerLink="/">Home</a>
+        <a routerLink="/about">About</a>
+        <a routerLink="/portfolio">Portfolio</a>
+        <a routerLink="/skills">Skills</a>
+        <a routerLink="/blog">Blog</a>
+        <a routerLink="/contact">Contact</a>
+      </nav>
+      <button class="hamburger" (click)="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+  

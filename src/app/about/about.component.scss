@@ -1,0 +1,68 @@
+.about-section {
+    padding: 2rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .about-image {
+    flex: 1;
+    max-width: 400px;
+  
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  
+  .about-info {
+    flex: 1;
+    max-width: 600px;
+  
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+  
+    h4 {
+      font-size: 1.5rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+  
+    p {
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+  
+    .contact-btn {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #555;
+      }
+    }
+  }
+  
