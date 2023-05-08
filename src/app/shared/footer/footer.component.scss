@@ -1,0 +1,39 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .copyright,
+  .footer-links,
+  .social-media,
+  .contact {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a,
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .footer-links a:hover,
+  .social-media a:hover {
+    color: #ccc;
+  }
+  
+  /* FontAwesome icons */
+  .fab {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+  }
+  
