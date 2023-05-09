@@ -11,6 +11,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     SkillsComponent,
     BlogComponent,
     ContactComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
